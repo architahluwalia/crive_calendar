@@ -10,7 +10,7 @@
 	"scripts": {
 		"start": "grunt",
 		"test": "grunt test",
-		"postinstall": "bower install && grunt"
+		"postinstall": "bower install && grunt build"
 	},
 	"dependencies": {
 		"express": "~4.10.1",
