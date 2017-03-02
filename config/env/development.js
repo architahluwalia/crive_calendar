@@ -1,7 +1,8 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/crive-calendar-dev',
+	// db: 'mongodb://localhost/crive-calendar-dev',
+    db: process.env.MONGODB_URI || process.env.MONGOHQ_URL || process.env.MONGOLAB_URI ||  process.env.SCALINGO_MONGO_URL  || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/crive-calendar',
 	app: {
 		title: 'crive-calendar - Development Environment'
 	},

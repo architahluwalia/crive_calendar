@@ -6,7 +6,7 @@ module.exports = {
 		description: 'mean',
 		keywords: 'mean'
 	},
-	port: process.env.PORT || 3000,
+	port: process.env.PORT || 9999,
 	templateEngine: 'swig',
 	sessionSecret: 'MEAN',
 	sessionCollection: 'sessions',
