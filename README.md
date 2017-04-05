@@ -1,8 +1,19 @@
-A Basic Calendar event managment app for the inteview process of crive.
+Task at hand:
 
-Sign up first and then sign sign in to use it.
+	You need to create An Appointment Calendar application which:
 
-run npm install
-then bower install
+	- Shows the available Slot 
+	- Shows the booked Slot 
+	- Any public link from where I can See this entry in the calendar and book an appointment. 
+	- The appointment will reflect in calendar Without loading the entire page.
 
-start mongodb and run npm start
+	These fields are needed while adding an appointment: 
+	- Name 
+	- Time 
+	- Time Zone
+
+	----------------------------------------
+
+	You need to create this application with the use of MEAN Stack. MongoDB, Express, Angular and backend should be in Node.
+	For sample calendar front-end interface, you can use below link. http://codepen.io/bbarry/pen/Eopdk
+
